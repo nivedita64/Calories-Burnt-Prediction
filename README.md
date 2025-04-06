@@ -1,14 +1,13 @@
 # Calories-Burnt-Prediction
-This project predicts calories burnt using machine learning. I performed complete data analysis and visualization using libraries like 
-<br>
-NumPy, Pandas, Matplotlib and Seaborn. Key steps included:
+🔥 Calories Burnt Prediction
+This project predicts calories burnt based on user activity using machine learning. Key steps include:
 
-Explored and cleaned the dataset
+🧹 Cleaned and preprocessed the dataset
 
-Found correlations between features
+📊 Visualized feature relationships and insights using Seaborn and Matplotlib
 
-Visualized insights
+📈 Analyzed correlations between variables
 
-Trained an XGBoost Regressor model using Scikit-learn
+🤖 Trained an XGBoost Regressor model using Scikit-learn
 
-Evaluated the model performance using Mean Absolute Error (MAE)
+📉 Evaluated model performance using Mean Absolute Error (MAE)
