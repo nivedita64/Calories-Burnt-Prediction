@@ -1,5 +1,4 @@
 # Calories-Burnt-Prediction
-🔥 Calories Burnt Prediction
 This project predicts calories burnt based on user activity using machine learning. Key steps include:
 
 🧹 Cleaned and preprocessed the dataset
