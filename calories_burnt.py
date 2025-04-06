@@ -1,4 +1,5 @@
 #importing the dependencies
+import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -9,11 +10,18 @@ from sklearn import metrics
 
 #data collection & processing
 #loading the data from csv file to a Pandas DataFrame
-calories =pd.read_csv(r'C:\Users\pc\Desktop\GitPro\Calories-Burnt-Prediction\calories.csv')
-#printing the first five rows of the DataFrame
+
+
+# Getting current script's directory
+base_dir = os.path.dirname(__file__)
+
+calories_path = os.path.join(base_dir, "calories.csv")
+calories = pd.read_csv(calories_path)
+#printing the first five rows of the dataframe
 calories.head()
- 
-exercise_data = pd.read_csv(r'C:\Users\pc\Desktop\GitPro\Calories-Burnt-Prediction\exercise.csv')
+
+exercise_path = os.path.join(base_dir, "exercise.csv")
+exercise_data = pd.read_csv(exercise_path)
 exercise_data.head()
 
 #combining the two Dataframes
